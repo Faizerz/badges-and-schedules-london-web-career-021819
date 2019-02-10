@@ -14,4 +14,7 @@ end
 def assign_rooms(people)
   n=0
   people.each do |person|
-    
+    "Hello, #{person}! You'll be assigned to room #{n}"
+    n+=1
+  end
+end
